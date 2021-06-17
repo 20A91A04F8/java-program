@@ -1,0 +1,21 @@
+import java.util.*;
+public class Harshad {
+    public static void main(string[]args){
+        scanner sc=new scanner(system.in);
+        system.out.println("enter number:");
+        int n=sc.next int();
+        int sum=0;
+        int temp=n;
+        while(n>0)
+        {
+            int rem=n%10;
+            sum=sum+rem;
+            n=n/10;
+        }
+        if(temp%sum==0)
+        system.out.println("harshad number");
+        else
+        system.out.println("not harshad number")
+        
+    }
+}
